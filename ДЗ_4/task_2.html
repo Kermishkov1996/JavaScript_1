@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		"use strict";
+
+		function getNumberOfObject(num) {
+			if (!Number.isInteger(num) || num < 0 || num > 9999999) {
+				console.log("Число должно быть в диапазоне [0,...,999999]");
+				return {};
+			}
+
+			return {
+				unins: num % 10,
+				tens: Math.floor(num /10) % 10,
+				hundreds: Math.floor(num /100) % 10,
+				thousand: Math.floor(num /1000) % 1000, // добавил тысячи
+			}
+		}
+
+		let num = +prompt("Введите число от 0 до 999999");
+		console.log (getNumberOfObject(num));
+		console.log ("Введенное число: " + num);
+		
+	</script>
+</body>
+</html>

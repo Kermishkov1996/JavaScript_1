@@ -3,7 +3,7 @@
  * @property {int} rowsCount Количество строк в карте.
  * @property {int} colsCount Количество колонок в карте.
  */
-const config = {
+let config = {
     rowsCount: 10,
     colsCount: 10,
 };

@@ -1,0 +1,79 @@
+body {
+    background: #2e353d;
+}
+
+p {
+    text-align: center;
+    color: #BF8330;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+button {
+    width: 120px;
+    padding: 10px;
+    color: white;
+    background: #A12312;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4E1609;
+}
+
+button:active {
+    background: #92000A;
+    color: black;
+}
+
+#game {
+    border-collapse: collapse;
+    margin: 20px auto;
+    min-height: 484px;
+}
+
+#menu {
+    width: 486px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #eee;
+}
+
+.food {
+    background: #92000A;
+}
+
+.snakeBody {
+    background: #BF8330;
+}
+
+#message {
+    text-align: center;
+    color: #BF8330;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#score {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.current {
+    color: #BF8330;
+}
+
+.toWin {
+    color: #A12312;
+}
